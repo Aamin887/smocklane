@@ -1,0 +1,70 @@
+article.offer-card {
+    /* background-image: url('../images/product_1.png'); */
+    width: 33%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 10px gray;
+    z-index: 1;
+    margin: 0 10px;
+    position: relative;
+    color: whitesmoke;
+}
+
+
+article.offer-card .offer-container{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+article.offer-card .offer-container h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+article.offer-card .offer-container small {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+}
+
+article.offer-card::before {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.436);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+article.offer-card {
+    height: 350px;
+    width: 95%;
+    margin: 10px auto 10px;
+    }
+
+    article.offer-card .offer-container {
+        width: 100%;
+    }
+
+    article.offer-card .offer-container h3 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+    article.offer-card .offer-container small {
+        font-weight: 100;
+    }
+}

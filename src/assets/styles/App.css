@@ -1,0 +1,39 @@
+* {
+  transition: all 0.3 ease-in-out;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: roboto;
+    background-color: #f1c50e;
+}
+
+.App {
+  width:100vw;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #dedcdc;
+}
+
+li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+p {
+  color: #111111;
+  font-size: 0.9rem;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}

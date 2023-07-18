@@ -1,0 +1,40 @@
+div.products-page {
+    margin-top: 4rem;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    padding: 20px ;
+}
+
+div.products-page h2 {
+    text-shadow: 0 2px 5px aliceblue;
+    margin-bottom: 15px;
+}
+
+div.products-page p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-shadow: 0 2px 5px aliceblue;
+    margin-bottom: 60px;
+
+}
+
+div.products-page div.products-content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 20px;
+
+}
+
+
+/* Responsive Styles */ 
+@media screen and (min-width: 768px) {
+      div.products-page div.products-content {
+        justify-content: flex-start;
+      }
+
+   
+} 

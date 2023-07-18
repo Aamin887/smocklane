@@ -1,0 +1,20 @@
+.btn {
+    padding: 1.2em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: bold;
+    color: black;
+    background-color: #eaedf2;
+    opacity: 0.8;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    transform: translateY(3px);
+    opacity: 1;
+}
+

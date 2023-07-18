@@ -1,0 +1,13 @@
+.product {
+    
+}
+
+
+@media screen and (min-width: 764px) {
+
+    .product {
+        width: calc(22% - 10px);
+        margin: auto;
+    }
+
+}

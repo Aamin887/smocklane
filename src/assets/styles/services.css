@@ -1,0 +1,57 @@
+div.services-page {
+    background-color: rgba(240, 248, 255, 0.221);
+    padding: 60px 0;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+div.services-page h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px aliceblue;
+
+}
+
+div.services-page p {
+    width: 80%;
+    text-shadow: 0 2px 5px aliceblue;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+
+div.services-page .content {
+    display: flex;
+}
+
+div.how-it-work h3.intro-text {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-shadow: 0 2px 5px aliceblue;
+}
+
+
+@media screen and (max-width: 700px) {
+    div.services-page .content{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+div.how-it-work .how-it-work-content {
+margin: 60px auto 0;
+    display: flex;
+}
+
+
+}
